@@ -1,605 +1,447 @@
-GovComm AI
 
-<p align="center">
+<div align="center">
 
-<strong>{=html}AI-Powered Multilingual Mass Communication & Public
-Awareness Platform</strong>{=html}
+# 🌐 GovComm AI
 
+### AI-Powered Multilingual Mass Communication & Public Awareness Platform
+
+<p>
+  <b>Create</b> •
+  <b>Target</b> •
+  <b>Generate</b> •
+  <b>Translate</b> •
+  <b>Distribute</b> •
+  <b>Track</b> •
+  <b>Analyze</b>
 </p>
 
-<p align="center">
+<br>
 
-Create • Target • Generate • Translate • Distribute • Track • Analyze
+![Status](https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-00C853?style=for-the-badge)
+![React](https://img.shields.io/badge/REACT-VITE-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Django](https://img.shields.io/badge/DJANGO-REST-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FASTAPI-AI%20SERVICE-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-DATABASE-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![AI](https://img.shields.io/badge/AI-GROQ%20%7C%20INDICTRANS2-FF6F00?style=for-the-badge)
 
-</p>
+<br><br>
 
-Overview
+> **A unified platform for intelligent, multilingual, targeted and data-driven public communication.**
 
-GovComm AI is a full-stack communication management platform for
-creating, targeting, translating, distributing, and monitoring
-public-awareness campaigns across multiple Indian languages and
-communication channels.
+</div>
 
-The platform brings the complete communication lifecycle into one
-workspace:
+---
 
-Recipients
-    ↓
-Audience Segmentation
-    ↓
-Campaign Creation
-    ↓
-AI Content Generation
-    ↓
-Indian-Language Translation
-    ↓
-Channel Selection
-    ↓
-Delivery
-    ↓
-Live Tracking
-    ↓
-Engagement Analytics
+## 🌟 What is GovComm AI?
 
-Core Capabilities
+**GovComm AI** is a full-stack communication management platform designed to simplify the complete lifecycle of public-awareness communication.
 
-AI Content Generation
+From creating an announcement to targeting the right audience, generating content with AI, translating it into Indian languages, distributing it across communication channels, and tracking engagement — everything is brought together into one unified platform.
 
-Generate communication content directly inside the platform with:
+```text
+┌───────────────┐
+│   RECIPIENTS  │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   TARGETING   │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│    CAMPAIGN   │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│ AI GENERATION │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│  TRANSLATION  │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   DELIVERY    │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   TRACKING    │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   ANALYTICS   │
+└───────────────┘
+````
 
-Brief
+---
 
-Standard
+# ✨ Core Features
 
-Detailed
+<table>
+<tr>
+<td width="50%">
 
-Content can be generated for different communication scenarios and
-tones, including:
+### 🤖 AI Content Generation
 
-Informative
+Generate communication content using AI.
 
-Formal
+* Brief content
+* Standard content
+* Detailed content
+* Informative tone
+* Formal tone
+* Urgent tone
+* Friendly tone
 
-Urgent
+</td>
 
-Friendly
+<td width="50%">
 
-Multilingual Communication
+### 🌍 Multilingual Communication
 
-The platform supports multilingual communication across:
+Create communication for diverse Indian audiences.
 
-English
+**Supported languages include:**
 
-Hindi
+English • Hindi • Telugu • Tamil • Kannada • Malayalam • Marathi • Bengali • Gujarati • Punjabi • Odia • Urdu
 
-Telugu
+</td>
+</tr>
 
-Tamil
+<tr>
+<td width="50%">
 
-Kannada
+### 🎯 Smart Audience Targeting
 
-Malayalam
+Build targeted audiences using:
 
-Marathi
+* State / UT
+* District
+* City
+* Language
+* Occupation
+* Organization
+* Campaign attributes
 
-Bengali
+</td>
 
-Gujarati
+<td width="50%">
 
-Punjabi
+### 📢 Campaign Management
 
-Odia
+Manage the complete campaign lifecycle:
 
-Urdu
+* Content
+* Audience
+* Languages
+* Priority
+* Channels
+* Scheduling
+* Delivery
+* Analytics
 
-Indian-language translation is integrated through AI4Bharat
-IndicTrans2.
+</td>
+</tr>
 
-Campaign placeholders such as {{name}}, {{location}}, {{date}},
-and {{message}} are preserved during translation.
+<tr>
+<td width="50%">
 
-Audience & Recipient Management
+### 📡 Delivery Tracking
 
-Create targeted audiences using recipient attributes such as:
+Track communication from queue to engagement.
 
-State / Union Territory
-
-District
-
-City
-
-Preferred language
-
-Occupation / category
-
-Organization
-
-Other campaign-specific attributes
-
-The recipient directory maintains structured communication information
-including contact details, language and geographic context.
-
-Campaign Management
-
-Campaigns combine:
-
-Content
-
-Audience
-
-Priority
-
-Languages
-
-Channels
-
-Scheduling
-
-Delivery tracking
-
-Templates & Content Library
-
-Reusable templates and content allow frequently used public-awareness
-communications to be created consistently and efficiently.
-
-Live Delivery & Tracking
-
-The delivery layer supports a complete lifecycle:
-
+```text
 QUEUED
-   ↓
+  ↓
 PROCESSING
-   ↓
+  ↓
 SENT
-   ↓
+  ↓
 DELIVERED
-   ↓
-READ / OPENED
-   ↓
+  ↓
+READ
+  ↓
 CLICKED
+```
+
+</td>
+
+<td width="50%">
+
+### 📊 Engagement Analytics
+
+Monitor communication performance through:
+
+* Delivery KPIs
+* Delivery funnel
+* Recipient status
+* Channel analytics
+* Language analytics
+* Engagement events
+* Failures & retries
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🌐 Multilingual AI
+
+GovComm AI integrates **AI4Bharat IndicTrans2** for Indian-language translation.
+
+Dynamic campaign placeholders are preserved during translation:
+
+```text
+{{name}}
+{{location}}
+{{date}}
+{{message}}
+```
+
+This enables personalized multilingual communication without breaking campaign templates.
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                         ┌─────────────────────────┐
+                         │      REACT + VITE        │
+                         │        FRONTEND          │
+                         └────────────┬────────────┘
+                                      │
+                              REST API / JWT
+                                      │
+                                      ▼
+                         ┌─────────────────────────┐
+                         │       DJANGO REST        │
+                         │      CORE BACKEND        │
+                         └────────────┬────────────┘
+                                      │
+                    ┌─────────────────┴─────────────────┐
+                    │                                   │
+                    ▼                                   ▼
+          ┌──────────────────┐               ┌──────────────────┐
+          │    POSTGRESQL    │               │     FASTAPI      │
+          │     DATABASE     │               │    AI SERVICE    │
+          └──────────────────┘               └────────┬─────────┘
+                                                       │
+                                              ┌────────┴────────┐
+                                              │                 │
+                                              ▼                 ▼
+                                           GROQ          INDIC TRANS2
+                                              │                 │
+                                              └────────┬────────┘
+                                                       ▼
+                                             AI + TRANSLATION
+                                                       │
+                                                       ▼
+                                            DELIVERY & TRACKING
+                                                       │
+                                                       ▼
+                                                 ANALYTICS
+```
+
+---
+
+# 🛠️ Technology Stack
+
+<div align="center">
+
+| Layer             | Technology                         |
+| :---------------- | :--------------------------------- |
+| 🎨 Frontend       | **React + Vite**                   |
+| ⚙️ Backend        | **Django + Django REST Framework** |
+| 🤖 AI Service     | **FastAPI**                        |
+| 🗄️ Database      | **PostgreSQL**                     |
+| 🔐 Authentication | **JWT**                            |
+| 🧠 AI Generation  | **Groq**                           |
+| 🌍 Translation    | **AI4Bharat IndicTrans2**          |
+| 🔗 Communication  | **REST APIs**                      |
+| 📊 Tracking       | **Delivery Logs & Events**         |
+
+</div>
+
+---
 
-Failure handling:
-
-FAILED
-   ↓
-RETRYING
-   ↓
-PROCESSING
-   ↓
-SENT / DELIVERED
-
-Tracking includes:
-
-Delivery KPIs
-
-Delivery funnel
-
-Recipient-level status
-
-Channel analytics
-
-Language analytics
-
-Event timestamps
-
-Failures
-
-Retries
+# 📁 Project Structure
 
-Engagement events
-
-Architecture
-
-                         ┌─────────────────────┐
-                         │    React + Vite     │
-                         │     Frontend        │
-                         └──────────┬──────────┘
-                                    │
-                             REST / Authentication
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │     Django REST     │
-                         │   Core Application  │
-                         └───────┬───────┬─────┘
-                                 │       │
-                       Database  │       │ AI
-                                 │       ▼
-                                 │ ┌───────────────┐
-                                 │ │    FastAPI    │
-                                 │ │  AI Service   │
-                                 │ └───────┬───────┘
-                                 │         │
-                                 │    ┌────┴────┐
-                                 │    │         │
-                                 │   Groq   IndicTrans2
-                                 │
-                                 ▼
-                         ┌─────────────────────┐
-                         │     PostgreSQL      │
-                         │   Primary Database  │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │ Delivery & Tracking │
-                         │ Events + Analytics  │
-                         └─────────────────────┘
-
-Technology Stack
-
-Layer                   Technology
-
-Frontend                React + Vite
-Core Backend            Django + Django REST Framework
-AI Service              FastAPI
-Primary Database        PostgreSQL
-Development Database    SQLite support
-Authentication          JWT
-AI Generation           Groq
-Translation             AI4Bharat IndicTrans2
-API                     REST
-Delivery Architecture   Provider abstraction
-Tracking                DeliveryLog + DeliveryEvent
-Channels                Email, SMS, WhatsApp, Push, Web
-Development             VS Code / Antigravity IDE
-
-Authentication note: If Firebase Authentication / Google OAuth is
-enabled in the current deployment, it can be used as the identity
-layer alongside the existing JWT-protected API architecture. Keep
-provider-specific configuration in environment variables and never
-commit credentials.
-
-Authentication & Security
-
-The platform provides an authenticated workspace for communication
-administrators and creators.
-
-The authentication architecture is designed around:
-
-User Identity
-     ↓
-Authenticated Session
-     ↓
-JWT-Protected API
-     ↓
-Profile / Permissions
-     ↓
-Campaign Workspace
-
-Security considerations include:
-
-Secure password hashing through the backend authentication system
-
-JWT-protected API endpoints
-
-Role-aware authorization
-
-Environment-based secret management
-
-No credentials committed to source control
-
-API validation
-
-Delivery-event idempotency
-
-Controlled placeholder handling
-
-For production deployment, configure HTTPS, secure token/cookie
-policies, rate limiting, secret management and verified provider
-webhooks.
-
-Database
-
-PostgreSQL is the primary relational database for the platform.
-
-It stores structured application data including:
-
-Users and profiles
-
-Recipients
-
-Audiences
-
-Campaigns
-
-Templates
-
-Content
-
-Delivery records
-
-Delivery events
-
-Tracking information
-
-The Django ORM and migration system provide schema management and
-relational integrity.
-
-AI Service
-
-The AI layer is separated from the core Django application through a
-dedicated FastAPI service.
-
-React
-  ↓
-Django REST
-  ↓
-FastAPI AI Service
-  ├── Content Generation
-  └── Translation
-
-This separation keeps AI functionality modular and allows the AI layer
-to evolve independently from the core application.
-
-The AI generation layer uses the configured LLM provider, while
-Indian-language translation is handled through the IndicTrans2
-integration.
-
-Delivery Architecture
-
-The delivery system is provider-independent.
-
-Campaign
-   ↓
-Dispatch Engine
-   ↓
-Channel Interface
-   ├── Email
-   ├── SMS
-   ├── WhatsApp
-   ├── Push
-   └── Web
-   ↓
-Provider
-   ↓
-Delivery Event
-   ↓
-Database
-   ↓
-Analytics
-
-This architecture allows production communication providers to be
-connected through channel adapters without rewriting the core delivery
-tracking system.
-
-The delivery layer includes:
-
-Dispatch engine
-
-Provider abstraction
-
-Delivery logs
-
-Delivery events
-
-Retry handling
-
-Webhook-ready event processing
-
-Idempotency
-
-Campaign analytics
-
-Delivery Events
-
-The platform tracks communication events such as:
-
-MESSAGE_QUEUED
-MESSAGE_SENT
-MESSAGE_DELIVERED
-MESSAGE_READ
-MESSAGE_CLICKED
-MESSAGE_FAILED
-MESSAGE_RETRIED
-MESSAGE_CANCELLED
-
-Provider event identifiers can be used to prevent duplicate events from
-incorrectly affecting analytics.
-
-India Geography
-
-The platform includes reusable geographic targeting for India with:
-
-State / Union Territory
-        ↓
-District
-        ↓
-City / Location
-
-The same geography structure can be reused across:
-
-Recipient management
-
-Audience creation
-
-Campaign targeting
-
-Profile information
-
-Project Structure
-
-project-root/
+```text
+AI-Multilingual-Mass-Communication-Platform/
 │
-├── backend/
-│   ├── api/
-│   │   ├── delivery/
-│   │   │   ├── providers/
-│   │   │   └── services/
-│   │   ├── migrations/
-│   │   ├── services/
-│   │   └── tests/
-│   ├── manage.py
-│   └── ...
+├── 📂 backend/
+│   └── Django REST API
 │
-├── ai-service/
-│   ├── providers/
-│   ├── services/
-│   ├── config.py
-│   ├── main.py
-│   └── requirements.txt
+├── 📂 ai-service/
+│   └── FastAPI AI & Translation Service
 │
-├── frontend/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   └── App.jsx
-│   ├── package.json
-│   └── ...
+├── 📂 frontend/
+│   └── React + Vite Application
 │
-└── README.md
+├── 📂 docs/
+│   └── Project Documentation
+│
+├── 📂 scratch/
+│   └── Development Resources
+│
+├── 📄 .env.example
+├── 📄 .gitignore
+├── ▶️ start_all.bat
+├── ⏹️ stop_all.bat
+└── 📖 README.md
+```
 
-Local Development
+---
 
-Requirements
+# ⚡ Quick Start
 
-Python 3.12+
+### 1️⃣ Clone the Repository
 
-Node.js
+```bash
+git clone https://github.com/lokeshboddu006/AI-Multilingual-Mass-Communication-Platform.git
 
-npm
+cd AI-Multilingual-Mass-Communication-Platform
+```
 
-PostgreSQL
+### 2️⃣ Install Dependencies
 
-Git
-
-Backend
-
-python -m venv backend_venv
-
-Windows
-
-backend_venv\Scriptsctivate
-
-Install dependencies:
-
+```bash
 pip install -r backend/requirements.txt
 
-Run migrations:
-
-cd backend
-python manage.py migrate
-
-Start Django:
-
-python manage.py runserver 127.0.0.1:8000
-
-AI Service
-
-cd ai-service
-pip install -r requirements.txt
-
-Configure environment variables in .env.
-
-Example:
-
-GROQ_API_KEY=your_key_here
-GEMINI_API_KEY=your_key_here
-AI_SERVICE_URL=http://127.0.0.1:8001
-
-Start FastAPI:
-
-uvicorn main:app --host 127.0.0.1 --port 8001
-
-Frontend
+pip install -r ai-service/requirements.txt
 
 cd frontend
 npm install
-npm run dev
+cd ..
+```
 
-Local Services
+### 3️⃣ Configure Environment
 
-Service              URL
+Configure the required environment variables using the provided `.env.example` files.
 
-React + Vite         http://localhost:5173
-Django REST API      http://127.0.0.1:8000
-FastAPI AI Service   http://127.0.0.1:8001
-AI Health Check      http://127.0.0.1:8001/health
+### 4️⃣ Start the Platform
 
-Testing
+```text
+Frontend     → http://localhost:5173
+Backend      → http://127.0.0.1:8000
+AI Service   → http://127.0.0.1:8001
+```
 
-Backend validation:
+For local development, the repository also provides:
 
-python manage.py check
+```text
+▶ start_all.bat
+⏹ stop_all.bat
+```
 
-Run backend tests:
+---
 
-python manage.py test
+# 🔄 Complete Communication Workflow
 
-Delivery tests:
+```text
+                  👤 RECIPIENT
+                       │
+                       ▼
+                🎯 AUDIENCE
+                 TARGETING
+                       │
+                       ▼
+                📝 CAMPAIGN
+                 CREATION
+                       │
+                       ▼
+                🤖 AI CONTENT
+                GENERATION
+                       │
+                       ▼
+                🌍 LANGUAGE
+                TRANSLATION
+                       │
+                       ▼
+                📡 CHANNEL
+                 SELECTION
+                       │
+                       ▼
+                🚀 DELIVERY
+                       │
+                       ▼
+                📊 TRACKING
+                       │
+                       ▼
+                📈 ANALYTICS
+```
 
-python manage.py test api.tests.test_delivery
+---
 
-Frontend production build:
+# 📡 Communication Channels
 
-npm run build
+The architecture is designed around a provider-independent delivery layer.
 
-Example Workflow
+```text
+                    CAMPAIGN
+                       │
+                       ▼
+                 DISPATCH ENGINE
+                       │
+            ┌──────────┼──────────┐
+            ▼          ▼          ▼
+          EMAIL       SMS      WHATSAPP
+            │          │          │
+            └──────────┼──────────┘
+                       │
+                 PUSH / WEB
+                       │
+                       ▼
+                  DELIVERY
+                       │
+                       ▼
+                    EVENTS
+                       │
+                       ▼
+                  ANALYTICS
+```
 
-A public-awareness campaign can follow this lifecycle:
+The architecture can be extended with production communication providers without changing the core campaign and tracking system.
 
-1. Authenticate
-        ↓
-2. Manage Recipients
-        ↓
-3. Build Audience
-        ↓
-4. Generate Content
-        ↓
-5. Translate Content
-        ↓
-6. Create Campaign
-        ↓
-7. Select Channels
-        ↓
-8. Dispatch
-        ↓
-9. Track Delivery
-        ↓
-10. Analyze Engagement
+---
 
-Example
+# 💡 Example Use Case
 
-A cyclone-awareness campaign can be created, targeted to relevant
-geographic audiences, generated using AI, translated into required
-Indian languages, prepared for multiple channels, and then monitored
-through the delivery dashboard.
+## 🌪️ Emergency Awareness Campaign
 
-Production Integration Roadmap
+Imagine a public-awareness campaign for an approaching cyclone.
 
-The architecture is designed to support production integrations such as:
+```text
+Create Campaign
+       ↓
+Select Affected Region
+       ↓
+Identify Target Audience
+       ↓
+Generate AI Message
+       ↓
+Translate into Required Languages
+       ↓
+Select Communication Channels
+       ↓
+Distribute
+       ↓
+Track Delivery
+       ↓
+Analyze Engagement
+```
 
-Email delivery providers
+The same architecture can support health awareness, education, government schemes, public announcements, emergency notifications, and other large-scale communication scenarios.
 
-Indian SMS providers
+---
 
-WhatsApp Business
+# 🎯 Project Vision
 
-Firebase Cloud Messaging
+> **Create the right message, reach the right audience, communicate in the right language, use the right channel, and understand what happens afterward.**
 
-Production webhook endpoints
+GovComm AI connects:
 
-Background job processing
-
-Advanced monitoring
-
-Production analytics
-
-Provider credentials should always be stored through secure
-environment/secret management.
-
-Project Vision
-
-GovComm AI is built around one simple principle:
-
-Create the right message, reach the right audience, communicate in
-the right language, use the right channel, and understand what happens
-afterward.
-
-The platform connects:
-
+```text
 CONTENT
    +
 AUDIENCE
@@ -611,19 +453,104 @@ CHANNEL
 DELIVERY
    +
 ENGAGEMENT
+```
 
 into one unified communication workflow.
 
-Project
+---
 
-GovComm AI
-AI-Powered Multilingual Mass Communication & Public Awareness
-Management Platform
+# 🚀 Future-Ready Architecture
 
-Repository
+The platform is designed to support future integrations such as:
 
-lokeshboddu006-AI-Multilingual-Mass-Communication-Platform
+* 📧 Email providers
+* 📱 SMS providers
+* 💬 WhatsApp Business
+* 🔔 Push notifications
+* 🌐 Web communication
+* 🔗 Provider webhooks
+* ⚙️ Background processing
+* 📊 Advanced analytics
 
-Create → Target → Generate → Translate → Distribute → Track → Analyze#   l o k e s h b o d d u 0 0 6 - A I - M u l t i l i n g u a l - M a s s - C o m m u n i c a t i o n - P l a t f o r m  
- #   l o k e s h b o d d u 0 0 6 - A I - M u l t i l i n g u a l - M a s s - C o m m u n i c a t i o n - P l a t f o r m  
- 
+---
+
+# 📊 Project Status
+
+<div align="center">
+
+| Component                  |     Status     |
+| :------------------------- | :------------: |
+| React Frontend             |    🟢 Active   |
+| Django REST Backend        |    🟢 Active   |
+| FastAPI AI Service         |    🟢 Active   |
+| PostgreSQL Architecture    |    🟢 Active   |
+| AI Content Generation      |  🟢 Integrated |
+| Indic Language Translation |  🟢 Integrated |
+| Audience Management        | 🟢 Implemented |
+| Campaign Management        | 🟢 Implemented |
+| Delivery Architecture      | 🟢 Implemented |
+| Analytics Architecture     | 🟢 Implemented |
+
+</div>
+
+---
+
+# 🤝 Contributing
+
+Contributions and improvements are welcome.
+
+```bash
+git checkout -b feature/your-feature
+
+git add .
+
+git commit -m "Add your feature"
+
+git push origin feature/your-feature
+```
+
+Open a Pull Request once your changes are ready.
+
+---
+
+# 🌟 Support the Project
+
+If you find **GovComm AI** interesting or useful:
+
+⭐ Star the repository
+🍴 Fork the project
+🐛 Report issues
+💡 Suggest improvements
+🤝 Contribute
+
+---
+
+<div align="center">
+
+# 🌐 GovComm AI
+
+### AI-Powered Multilingual Mass Communication & Public Awareness Platform
+
+<br>
+
+**Create → Target → Generate → Translate → Distribute → Track → Analyze**
+
+<br><br>
+
+Built with
+
+**React • Django • FastAPI • PostgreSQL • Groq • IndicTrans2**
+
+<br><br>
+
+⭐ **Star the repository if you like the project!**
+
+</div>
+
+<div align="center">
+
+![GovComm AI Dashboard](docs/images/dashboard.png)
+
+</div>
+
+ 
